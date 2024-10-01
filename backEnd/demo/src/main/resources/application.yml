@@ -1,0 +1,10 @@
+spring:
+    profiles:
+        active: dev
+springdoc:
+  default-produces-media-type: application/java
+
+server:
+    servlet:
+        context-path: /booking/api/v2
+
